@@ -1,0 +1,63 @@
+
+
+{
+
+  "name": "PythonCodeExecutor",
+
+  "description": "Open-Source bot to run python code in Telegram. Made by Abhay.",
+
+  "keywords": ["python", "coding", "telegram"],
+
+  "repository": "https://github.com/Abhay056/PythonTelegramBot",
+
+  "stack": "container",
+
+  "env": {
+
+    "SESSION_NAME": {
+
+      "description": "Pyrogram session string",
+
+      "required": true
+
+    },
+
+    "BOT_TOKEN": {
+
+      "description": "A bot token from @BotFather",
+
+      "required": true
+
+    },
+
+    "BOT_NAME": {
+
+      "description": "Your MusicPlayer Bot Name.",
+
+      "required": false,
+
+      "value": ""
+
+    },
+
+    "API_ID": {
+
+      "description": "App ID from my.telegram.org/apps",
+
+      "required": true
+
+    },
+
+    "API_HASH": {
+
+      "description": "App hash from my.telegram.org/apps",
+
+      "required": true
+
+    }, 
+
+  }
+
+}
+    
+
