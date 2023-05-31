@@ -1,2 +1,8 @@
 pyrogram
-colorama
+selenium
+time
+datetime
+os 
+json
+asyncio
+dotenv
