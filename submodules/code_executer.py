@@ -19,7 +19,7 @@ class Launch():
 
     def action(self):
         driver = self.driver
-        driver.get("https://sourceacademy.nus.edu.sg/playground")
+        driver.get("https://pynative.com/online-python-code-editor-to-execute-python-code/")
         aceInputTextArea = driver.find_element_by_css_selector("textarea.ace_text-input")
         time.sleep(0.5)
         aceInputTextArea.clear()
