@@ -32,7 +32,7 @@
 
     "BOT_NAME": {
 
-      "description": "Your MusicPlayer Bot Name.",
+      "description": "Python Code Executer",
 
       "required": false,
 
