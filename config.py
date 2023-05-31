@@ -5,8 +5,8 @@ load_dotenv()
 que = {}
 admins = {}
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "5096539"))
+API_HASH = getenv("API_HASH", "79ead8d0295d53a71e5deeac24eda432")
 BOT_TOKEN = getenv("BOT_TOKEN","")
 BOT_NAME = getenv("BOT_NAME","Python Code Executor")
 SESSION_NAME = getenv("SESSION_NAME", "")
